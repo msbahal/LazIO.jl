@@ -1,13 +1,13 @@
 name = "LazIO"
-uuid = "c3605908-9f0f-11e8-0a72-0d361c15a277"
+uuid = "2517f96e-b66f-443b-9698-d5e2a3767e8e"
 authors = ["Maarten Pronk <git@evetion.nl>"]
-version = "0.2.1"
+version = "0.3.0"
 
 [deps]
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
 LASzip_jll = "8372b9c3-1e34-5cc3-bfab-1a98e101de11"
-LasIO = "570499db-eae3-5eb6-bdd5-a5326f375e68"
+LasIO = "73f23da9-1916-45be-95ff-8b812502714e"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
@@ -16,7 +16,6 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 [compat]
 FileIO = "1.2"
 FixedPointNumbers = "0.5, 0.6, 0.7, 0.8"
-LasIO = "0.3"
 Parameters = "0.12"
 Tables = "0.2, 1.0"
 julia = "1.3"
